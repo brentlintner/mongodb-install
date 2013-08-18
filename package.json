@@ -1,0 +1,42 @@
+{
+  "name": "mongodb-install",
+  "version": "0.0.1",
+  "description": "A tiny NodeJS lib for installing MongoDB binaries.",
+  "homepage": "",
+  "author": {
+    "name": "Brent Lintner",
+    "email": "brent.lintner@gmail.com",
+    "url": "http://github.com/brentlintner"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brentlintner/mongodb-install.git"
+  },
+  "bin": { "mongodb-install": "bin/mongodb-install" },
+  "main": "lib/index.js",
+  "dependencies": {
+    "colors": "~0.6.1",
+    "optimist": "~0.6.0",
+    "unzip": "~0.1.8",
+    "request": "~2.27.0",
+    "shelljs": "~0.1.4",
+    "progress": "~1.0.0",
+    "progbar": "0.0.2"
+  },
+  "devDependencies": {
+    "police": "0.3.2",
+    "jake": "0.6.10",
+    "istanbul": "0.1.43",
+    "jshint": "2.1.9",
+    "mocha": "1.12.0",
+    "chai": "1.7.2",
+    "sinon": "1.7.3",
+    "sinon-chai": "2.4.0"
+  }
+}
